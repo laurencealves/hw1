@@ -1,0 +1,27 @@
+function repeatRight (total) {
+  var count = 0;
+  while (count < total) {
+    right ();
+    count = count + 1;
+  }
+}
+
+repeatRight (2);
+if (getColor () == "red") {
+  up ();
+} else {
+    down ();
+  }
+repeatRight (2);
+if (getColor () == "red") {
+  up ();
+} else {
+    down ();
+  }
+repeatRight (2);
+if (getColor () == "red") {
+  up ();
+} else {
+    down ();
+  }
+repeatRight (3);
