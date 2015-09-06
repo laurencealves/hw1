@@ -1,0 +1,24 @@
+function repeatDown (total) {
+  var count = 0;
+  while (count < total) {
+    down ();
+    count = count + 1;
+  }
+}
+
+function repeatRight (total) {
+  var count = 0;
+  while (count < total) {
+    right ();
+    count = count + 1;
+  }
+}
+
+
+repeatDown (2);
+var oddsquare = getColor (1);
+repeatDown (3);
+repeatRight (2);
+setColor (oddsquare);
+repeatRight (2);
+up (1);
